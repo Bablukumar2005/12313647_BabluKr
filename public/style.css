@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    text-align:center;
+}
+
+.subtitle{
+    text-align:center;
+    color:gray;
+    margin-bottom:30px;
+}
+
+.summary{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:22%;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#555;
+}
+
+.card p{
+    font-size:22px;
+    font-weight:bold;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+th{
+    background:#1f4e79;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+.buy{
+    color:green;
+    font-weight:bold;
+}
+
+.sell{
+    color:red;
+    font-weight:bold;
+}
+
+.review{
+    color:orange;
+    font-weight:bold;
+}
+
+.saveBtn{
+    margin-top:25px;
+    padding:12px 25px;
+    font-size:16px;
+    background:#1f4e79;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.saveBtn:hover{
+    background:#163a5b;
+}

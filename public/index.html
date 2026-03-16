@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Rebalancing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📊 Portfolio Rebalancing Dashboard</h1>
+    <p class="subtitle">Client: Amit Sharma</p>
+
+    <div class="summary">
+        <div class="card">
+            <h3>Total Portfolio</h3>
+            <p id="portfolioValue">₹0</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Buy</h3>
+            <p id="totalBuy">₹0</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Sell</h3>
+            <p id="totalSell">₹0</p>
+        </div>
+
+        <div class="card">
+            <h3>Fresh Cash Needed</h3>
+            <p id="netCash">₹0</p>
+        </div>
+    </div>
+
+    <table id="table">
+
+        <thead>
+        <tr>
+            <th>Fund</th>
+            <th>Target %</th>
+            <th>Current %</th>
+            <th>Drift</th>
+            <th>Action</th>
+            <th>Amount</th>
+        </tr>
+        </thead>
+
+        <tbody></tbody>
+
+    </table>
+
+    <button onclick="saveData()" class="saveBtn">💾 Save Recommendation</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
